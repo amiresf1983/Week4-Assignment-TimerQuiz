@@ -196,6 +196,9 @@ function showResult() {
       "</p></span>";
     scoreText.innerHTML = scoreTag;
   }
+  const records = document.querySelector(".result_box .name_form");
+  localStorage.setItem("yourName", "userScore");
+  localStorage.getItem("yourName", "userScore");
 }
 
 function startTimer(time) {

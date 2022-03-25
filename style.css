@@ -360,6 +360,17 @@ footer button.show {
   border: 1px solid #007bff;
   transition: all 0.3s ease;
 }
+.result_box .name_form form input button {
+  margin: 0 10px;
+  height: 45px;
+  padding: 0 20px;
+  font-size: 18px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #007bff;
+}
 
 .buttons button.restart {
   color: #fff;
